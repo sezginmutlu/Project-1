@@ -1,0 +1,21 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: test
+
+
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testfile1.yaml
+  namespace: test
+spec:
+  containers:
+  - name: busybox
+    image: busybox 
+    resources: 
+      limits:
+        cpu: "200m"
+        memory: "1Gi"
