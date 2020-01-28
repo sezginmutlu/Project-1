@@ -1,0 +1,7 @@
+NAME                                                CPU(cores)   MEMORY(bytes)   
+centos-65bd48bb99-bsg5h                             0m           1Mi             
+centos-pod                                          0m           1Mi             
+myapp                                               12m          16Mi            
+nginx-7cdbd8cdc9-qmsdk                              0m           2Mi             
+ubuntu-854b7f689b-45fgq                             0m           0Mi             
+web-pod-gke-k8-cluster-default-pool-2b7bcf85-86bv   0m           2Mi             
